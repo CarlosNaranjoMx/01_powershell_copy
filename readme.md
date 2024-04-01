@@ -1,0 +1,2 @@
+- activar opciones de desarrollador
+- instalar adb en la computadora
