@@ -1,8 +1,8 @@
-function copy_phone2 {
+function copy_phone {
 
     chcp 65001
   
-    $respaldo_dir = "C:\Users\carlo\resources\resources_respaldo_isa\"
+    $respaldo_dir = "$HOME/"
   
     $dirs_phone = @(
       "/storage/emulated/0/Download",
