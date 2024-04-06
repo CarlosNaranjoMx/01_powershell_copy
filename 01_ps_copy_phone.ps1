@@ -1,8 +1,9 @@
 function copy_phone {
 
     chcp 65001
-  
-    $respaldo_dir = "$HOME/"
+    New-Item -Path "$HOME\respaldo" -ItemType Directory -Force
+
+    $respaldo_dir = "$HOME\respaldo"
   
     $dirs_phone = @(
       "/storage/emulated/0/Download",
